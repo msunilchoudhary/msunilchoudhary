@@ -1,7 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import { assinments } from "../data/data";
+import AssignmentCard from "./assignmentCard";
 
 function AssignmentSection() {
     const assignmentSettings ={
@@ -27,26 +26,7 @@ function AssignmentSection() {
         <div className="project-container mt-10">
           <Slider {...assignmentSettings}>
             {assinments.map((assignment) => (
-              <Link key={assignment.name} tabindex="-1" to={assignment.link}>
-                <div className="px-3 group">
-                  <div className="relative overflow-hidden rounded-xl bg-blue-300 p-3">
-                    <img
-                      alt="Portfolio"
-                      loading="lazy"
-                      width="1200"
-                      height="800"
-                      className="group-hover:scale-110 group-hover:cursor-pointer transition-all duration-500"
-                      src={assignment.thumb}
-                    />
-                  </div>
-                  <h4 className="pb-1 pt-6 group-hover:text-primary group-hover:cursor-pointer text-2xl text-midnight_text font-bold dark:text-white">
-                    {assignment.name}
-                  </h4>
-                  <p className="text-secondary font-normal text-lg group-hover:text-primary group-hover:cursor-pointer dark:text-white/50">
-                    Designation
-                  </p>
-                </div>
-              </Link>
+              <AssignmentCard key={assignment.name} assignment={assignment} />
             ))}
           </Slider>
         </div>

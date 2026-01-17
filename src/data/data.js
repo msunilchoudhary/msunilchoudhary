@@ -18,6 +18,7 @@ import jdsolitaires from '../assets/images/projects/jdsolitaires.jpg';
 import vedicFashion from '../assets/images/projects/vedicfashion.jpg';
 import kalighata from '../assets/images/projects/kalighatastores.jpg';
 import cotstyle from '../assets/images/projects/cotstyle.jpg';
+import productListImg from '../assets/images/product-list-img.png';
 
 export default mscLogo;
 
@@ -88,45 +89,48 @@ export const clientReviews = [
 
 export const assinments = [
     {
+        name:"Add To Cart Products",
+        link:"https://redux-product-lists.vercel.app/",
+        thumb:productListImg,
+        technologies:["Reactjs", "JavaScript", "HTML", "TailwindCSS"]
+    },
+    {
         name:"Calculator",
         link:"/cozycasa",
         thumb:"https://theassignments.netlify.app/images/calculator.png",
+        technologies:["Reactjs", "JavaScript", "HTML", "CSS"]
     },
     {
         name:"Todo List",
         link:"/cozycasa",
         thumb:"https://theassignments.netlify.app/images/todo-img.png",
+        technologies:["Reactjs", "JavaScript", "HTML", "CSS"]
     },
     {
         name:"Form Submission",
         link:"/cozycasa",
         thumb:"https://theassignments.netlify.app/images/form-vector.png",
+        technologies:["Reactjs", "JavaScript", "HTML", "CSS"]
     },
     {
         name:"Theme Switcher",
         link:"/cozycasa",
         thumb:"https://theassignments.netlify.app/images/switcher.jpg",
+        technologies:["Reactjs", "JavaScript", "HTML", "CSS"]
     },
     {
         name:"Todo From Local Storage",
         link:"/cozycasa",
         thumb:"https://theassignments.netlify.app/images/todo-img.png",
+        technologies:["Reactjs", "JavaScript", "HTML", "CSS"]
     },
     {
         name:"Dynamic Countries Data",
         link:"/cozycasa",
         thumb:"https://theassignments.netlify.app/images/wm.png",
+        technologies:["Reactjs", "JavaScript", "HTML", "CSS"]
     },
-    {
-        name:"Cozycasa",
-        link:"/cozycasa",
-        thumb:"https://themewagon.github.io/venus-nextjs/images/portfolio/cozycasa.png",
-    },
-    // {
-    //     name:"Cozycasa",
-    //     link:"/cozycasa",
-    //     thumb:"https://themewagon.github.io/venus-nextjs/images/portfolio/cozycasa.png",
-    // }
+    
 ]
 
 export const skills = [

@@ -18,7 +18,7 @@ function Header() {
           <Link to="/about" className="text-gray-700 hover:text-blue-600 font-medium">About</Link>
           <Link to="/projects" className="text-gray-700 hover:text-blue-600 font-medium">Projects</Link>
           <Link to="/experties" className="text-gray-700 hover:text-blue-600 font-medium">Expertise</Link>
-          <Link to="/assignment" className="text-gray-700 hover:text-blue-600 font-medium">Assignments</Link>
+          <Link to="/assignments" className="text-gray-700 hover:text-blue-600 font-medium">Assignments</Link>
           <Link to="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
         </nav>
 

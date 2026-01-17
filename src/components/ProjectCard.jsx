@@ -1,6 +1,6 @@
-function ProjectCard({item}) {
+function ProjectCard({item, shadow}) {
   return (
-    <div className="p-5 bg-white m-3 rounded-lg">
+    <div className={`p-5 bg-white m-3 rounded-lg ${shadow}`}>
       <div className="w-full mb-4">
         <img
           alt={item.title}
