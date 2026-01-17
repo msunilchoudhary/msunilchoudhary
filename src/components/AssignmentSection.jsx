@@ -1,6 +1,6 @@
 import Slider from "react-slick";
 import { assinments } from "../data/data";
-import AssignmentCard from "./assignmentCard";
+import AssignmentCard from "./AssignmentCard";
 
 function AssignmentSection() {
     const assignmentSettings ={
@@ -25,8 +25,8 @@ function AssignmentSection() {
         </div>
         <div className="project-container mt-10">
           <Slider {...assignmentSettings}>
-            {assinments.map((assignment, index) => (
-              <AssignmentCard key={index+1} assignment={assignment} />
+            {assinments.map((assignment) => (
+              <div key={assignment.id}><AssignmentCard assignment={assignment} /></div>
             ))}
           </Slider>
         </div>

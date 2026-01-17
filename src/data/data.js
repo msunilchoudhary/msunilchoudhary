@@ -89,42 +89,49 @@ export const clientReviews = [
 
 export const assinments = [
     {
+        id:"ASS001",
         name:"Add To Cart Products",
         link:"https://redux-product-lists.vercel.app/",
         thumb:productListImg,
         technologies:["Reactjs", "JavaScript", "HTML", "TailwindCSS", "Redux Toolkit"]
     },
     {
+        id:"ASS002",
         name:"Calculator",
         link:"/cozycasa",
         thumb:"https://theassignments.netlify.app/images/calculator.png",
         technologies:["Reactjs", "JavaScript", "HTML", "CSS"]
     },
     {
+        id:"ASS003",
         name:"Todo List",
         link:"/cozycasa",
         thumb:"https://theassignments.netlify.app/images/todo-img.png",
         technologies:["Reactjs", "JavaScript", "HTML", "CSS"]
     },
     {
+        id:"ASS004",
         name:"Form Submission",
         link:"/cozycasa",
         thumb:"https://theassignments.netlify.app/images/form-vector.png",
         technologies:["Reactjs", "JavaScript", "HTML", "CSS"]
     },
     {
+        id:"ASS005",
         name:"Theme Switcher",
         link:"/cozycasa",
         thumb:"https://theassignments.netlify.app/images/switcher.jpg",
         technologies:["Reactjs", "JavaScript", "HTML", "CSS"]
     },
     {
+        id:"ASS006",
         name:"Todo From Local Storage",
         link:"/cozycasa",
         thumb:"https://theassignments.netlify.app/images/todo-img.png",
         technologies:["Reactjs", "JavaScript", "HTML", "CSS"]
     },
     {
+        id:"ASS007",
         name:"Dynamic Countries Data",
         link:"/cozycasa",
         thumb:"https://theassignments.netlify.app/images/wm.png",

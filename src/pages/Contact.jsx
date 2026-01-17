@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Contact() {
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
+
   return (
     <div className="main-wrap">
       <section id="contact" className="mt-30">
@@ -19,7 +25,7 @@ function Contact() {
               <form className="flex flex-wrap w-full m-auto justify-between">
                 <div className="sm:flex gap-6 w-full">
                   <div className="mx-0 my-2.5 flex-1">
-                    <label for="fname" className="pb-3 inline-block text-base">
+                    <label htmlFor="fname" className="pb-3 inline-block text-base">
                       First Name
                     </label>
                     <input
@@ -28,11 +34,12 @@ function Contact() {
                       placeholder="John"
                       className="w-full text-base px-4 rounded-lg border-black/20 dark:border-white/20 py-2.5 border-solid border transition-all duration-500 focus:border-primary dark:focus:border-primary focus:outline-0"
                       name="firstname"
-                      value=""
+                      value={firstName}
+                      onChange={(e) => setFirstName(e.target.value)}
                     />
                   </div>
                   <div className="mx-0 my-2.5 flex-1">
-                    <label for="lname" className="pb-3 inline-block text-base">
+                    <label htmlFor="lname" className="pb-3 inline-block text-base">
                       Last Name
                     </label>
                     <input
@@ -41,13 +48,14 @@ function Contact() {
                       placeholder="Doe"
                       className="w-full text-base px-4 rounded-lg border-black/20 dark:border-white/20 py-2.5 border-solid border transition-all duration-500 focus:border-primary dark:focus:border-primary focus:outline-0"
                       name="lastname"
-                      value=""
+                      value={lastName}
+                      onChange={(e) => setLastName(e.target.value)}
                     />
                   </div>
                 </div>
                 <div className="sm:flex gap-6 w-full">
                   <div className="mx-0 my-2.5 flex-1">
-                    <label for="email" className="pb-3 inline-block text-base">
+                    <label htmlFor="email" className="pb-3 inline-block text-base">
                       Email Address
                     </label>
                     <input
@@ -56,11 +64,12 @@ function Contact() {
                       placeholder="john.doe@example.com"
                       className="w-full text-base px-4 rounded-lg border-black/20 dark:border-white/20 py-2.5 border-solid border transition-all duration-500 focus:border-primary dark:focus:border-primary focus:outline-0"
                       name="email"
-                      value=""
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
                   <div className="mx-0 my-2.5 flex-1">
-                    <label for="Phnumber" className="pb-3 inline-block text-base">
+                    <label htmlFor="Phnumber" className="pb-3 inline-block text-base">
                       Phone Number
                     </label>
                     <input
@@ -69,12 +78,13 @@ function Contact() {
                       placeholder="+1234567890"
                       className="w-full text-base px-4 py-2.5 rounded-lg border-black/20 dark:border-white/20 border-solid border transition-all duration-500 focus:border-primary dark:focus:border-primary focus:outline-0"
                       name="phnumber"
-                      value=""
+                      value={phone}
+                      onChange={(e) => setPhone(e.target.value)}
                     />
                   </div>
                 </div>
                 <div className="w-full mx-0 my-2.5 flex-1">
-                  <label for="message" className="text-base inline-block">
+                  <label htmlFor="message" className="text-base inline-block">
                     Message
                   </label>
                   <textarea
@@ -82,6 +92,7 @@ function Contact() {
                     name="Message"
                     className="w-full mt-2 px-5 py-3 rounded-lg border-black/20 dark:border-white/20 border-solid border transition-all duration-500 focus:border-primary dark:focus:border-primary focus:outline-0"
                     placeholder="Anything else you wanna communicate"
+                    onChange={(e) => setMessage(e.target.value)}
                   ></textarea>
                 </div>
                 <div className="mx-0 my-2.5 w-full">
