@@ -92,7 +92,7 @@ export const assinments = [
         name:"Add To Cart Products",
         link:"https://redux-product-lists.vercel.app/",
         thumb:productListImg,
-        technologies:["Reactjs", "JavaScript", "HTML", "TailwindCSS"]
+        technologies:["Reactjs", "JavaScript", "HTML", "TailwindCSS", "Redux Toolkit"]
     },
     {
         name:"Calculator",
