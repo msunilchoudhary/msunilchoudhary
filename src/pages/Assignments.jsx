@@ -1,5 +1,5 @@
 import React from "react";
-import PageHeader from "../components/pageHeader";
+import PageHeader from '../components/PageHeader';
 import { assinments } from "../data/data";
 import AssignmentCard from "../components/assignmentCard";
 
@@ -15,8 +15,8 @@ function Assignments() {
       <div className="assignments-group">
         <div className="container mx-auto max-w-7xl px-4 pt-4 pb-12">
           <div className="grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
-            {assinments.map((assignment) => (
-              <AssignmentCard key={assignment.name} assignment={assignment} />
+            {assinments.map((assignment, index) => (
+              <AssignmentCard key={index+1} assignment={assignment} />
             ))}
           </div>
         </div>

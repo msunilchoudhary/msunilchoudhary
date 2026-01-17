@@ -7,7 +7,7 @@ function Contact() {
         <div className="container mx-auto max-w-7xl px-4">
           <div className="section-title mx-auto max-w-3xl text-center">
             <h2 className="text-5xl font-bold heading-font mb-6">
-              Popular Projects
+              Get in Touch
             </h2>
             <p className="text-lg max-w-lg mx-auto text-gray-600">
               Presenting Next-Generation Designs and Solutions. Create,
@@ -15,7 +15,6 @@ function Contact() {
             </p>
           </div>
           <div className="relative">
-            <h2 className="mb-9 text-center">Get in Touch</h2>
             <div className="relative border px-6 py-2 rounded-lg border-black/20 dark:border-white/20">
               <form className="flex flex-wrap w-full m-auto justify-between">
                 <div className="sm:flex gap-6 w-full">

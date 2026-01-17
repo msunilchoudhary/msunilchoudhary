@@ -10,7 +10,7 @@ function AssignmentSection() {
         slidesToShow:5,
         slidesToScroll:1,
         autoplay:true,
-        autoplaySpeed:3000
+        autoplaySpeed:3000,
     }
   return (
     <section className="bg-white dark:bg-darklight assignments py-20">
@@ -25,8 +25,8 @@ function AssignmentSection() {
         </div>
         <div className="project-container mt-10">
           <Slider {...assignmentSettings}>
-            {assinments.map((assignment) => (
-              <AssignmentCard key={assignment.name} assignment={assignment} />
+            {assinments.map((assignment, index) => (
+              <AssignmentCard key={index+1} assignment={assignment} />
             ))}
           </Slider>
         </div>

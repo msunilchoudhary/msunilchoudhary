@@ -1,5 +1,4 @@
-import React from 'react'
-import PageHeader from '../components/pageHeader'
+import PageHeader from '../components/PageHeader'
 import { projects } from '../data/data'
 import ProjectCard from '../components/ProjectCard'
 

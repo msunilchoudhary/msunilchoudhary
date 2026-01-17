@@ -19,7 +19,7 @@ function AssignmentCard({assignment}) {
           {assignment?.name}
         </h4>
         {assignment?.technologies && <p className="text-secondary font-normal text-lg group-hover:text-primary group-hover:cursor-pointer dark:text-white/50">
-          {assignment?.technologies.map((technology) => <span className="inline-flex text-[10px] bg-blue-200 font-medium text-black/75 py-[2px] px-2 rounded-xl mr-1">{technology}</span>)}
+          {assignment?.technologies.map((technology) => <span className="inline-flex text-[10px] bg-blue-200 font-medium text-black/75 py-0.5 px-2 rounded-xl mr-1">{technology}</span>)}
         </p>}
       </div>
     </Link>
