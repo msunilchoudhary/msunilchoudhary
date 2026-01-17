@@ -10,43 +10,52 @@ import MDB from '../assets/images/icons/mongodb-icon.svg';
 import MSQL from '../assets/images/icons/mysql-icon.png';
 import WP from '../assets/images/icons/wordpress-icon.png';
 import shopify from '../assets/images/icons/shopify-icon.webp';
+import mscLogo from '../assets/images/msc-logo.png';
+import margERP from '../assets/images/projects/margerp.jpg';
+import digics from '../assets/images/projects/digics.jpg';
+import positex from '../assets/images/projects/positex.jpg';
+import jdsolitaires from '../assets/images/projects/jdsolitaires.jpg';
+import vedicFashion from '../assets/images/projects/vedicfashion.jpg';
+import kalighata from '../assets/images/projects/kalighatastores.jpg';
+import cotstyle from '../assets/images/projects/cotstyle.jpg';
 
+export default mscLogo;
 
 export const projects = [
     {
-        title:"Blog Forge",
-        img:"https://themewagon.github.io/Pixelize/images/project/blogforge.webp",
-        logo:"https://themewagon.github.io/Pixelize/images/project/get-nextjs-logo.svg"
+        title:"Marg ERP Limited",
+        img:margERP,
+        logo:mscLogo
     },
     {
-        title:"Gleamer",
-        img:"https://themewagon.github.io/Pixelize/images/project/gleamer.webp",
-        logo:"https://themewagon.github.io/Pixelize/images/project/get-nextjs-logo.svg"
+        title:"Digics",
+        img:digics,
+        logo:mscLogo
     },
     {
-        title:"Learnaxis",
-        img:"https://themewagon.github.io/Pixelize/images/project/learnaxis.webp",
-        logo:"https://themewagon.github.io/Pixelize/images/project/get-nextjs-logo.svg"
+        title:"Positex ",
+        img:positex,
+        logo:mscLogo
     },
     {
-        title:"Endeavor",
-        img:"https://themewagon.github.io/Pixelize/images/project/endeavor.webp",
-        logo:"https://themewagon.github.io/Pixelize/images/project/get-nextjs-logo.svg"
+        title:"JD Solitaires",
+        img:jdsolitaires,
+        logo:mscLogo
     },
     {
-        title:"Awake",
-        img:"https://themewagon.github.io/Pixelize/images/project/awake.webp",
-        logo:"https://themewagon.github.io/Pixelize/images/project/get-nextjs-logo.svg"
+        title:"Vedic Fashion",
+        img:vedicFashion,
+        logo:mscLogo
     },
     {
-        title:"Homely",
-        img:"https://themewagon.github.io/Pixelize/images/project/homely.webp",
-        logo:"https://themewagon.github.io/Pixelize/images/project/get-nextjs-logo.svg"
+        title:"Kalighata Stores",
+        img:kalighata,
+        logo:mscLogo
     },
     {
-        title:"Studiova",
-        img:"https://themewagon.github.io/Pixelize/images/project/studiova.webp",
-        logo:"https://themewagon.github.io/Pixelize/images/project/get-nextjs-logo.svg"
+        title:"Cotstyles",
+        img:cotstyle,
+        logo:mscLogo
     }
 ];
 

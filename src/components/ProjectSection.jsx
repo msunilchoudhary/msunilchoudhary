@@ -24,7 +24,7 @@ function ProjectSection() {
             </div>
             <div className="project-container mt-10">
               <Slider {...projectSliderSettings}>
-                {projects.map((project) => <div key={project.title} className="project-item"><ProjectCard item={project} /></div>)}
+                {projects.slice(0, 6).map((project) => <div key={project.title} className="project-item"><ProjectCard item={project} /></div>)}
               </Slider>              
             </div>
         </div>
