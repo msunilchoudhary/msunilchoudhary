@@ -15,7 +15,7 @@ function Counters() {
                   src="https://themewagon.github.io/Pixelize/images/records/star.svg"
                 />
               </div>
-              <h4 className="text-center text-4xl heading-font font-bold">14</h4>
+              <h3 className="text-center text-4xl heading-font font-bold">14</h3>
               <p className="text-center text-base font-normal">
                 Total Years of Experience
               </p>
@@ -31,7 +31,7 @@ function Counters() {
                   src="https://themewagon.github.io/Pixelize/images/records/user.svg"
                 />
               </div>
-              <h4 className="text-center text-4xl heading-font font-bold">08</h4>
+              <h3 className="text-center text-4xl heading-font font-bold">08</h3>
               <p className="text-center text-base font-normal">
                 Years of experience in Frontend
               </p>
@@ -47,7 +47,7 @@ function Counters() {
                   src="https://themewagon.github.io/Pixelize/images/records/cart.svg"
                 />
               </div>
-              <h4 className="text-center text-4xl heading-font font-bold">400+</h4>
+              <h3 className="text-center text-4xl heading-font font-bold">400+</h3>
               <p className="text-center text-base font-normal">
                 Happy Clients
               </p>
@@ -63,7 +63,7 @@ function Counters() {
                   src="https://themewagon.github.io/Pixelize/images/records/star.svg"
                 />
               </div>
-              <h4 className="text-center text-4xl heading-font font-bold">3000+</h4>
+              <h2 className="text-center text-4xl heading-font font-bold">3000+</h2>
               <p className="text-center text-base font-normal">
                 Delivered websites and projects
               </p>

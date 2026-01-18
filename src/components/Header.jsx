@@ -59,7 +59,7 @@ function Header() {
             <div className="flex items-center gap-2">
               <Link
                 to="/"
-                className="hidden md:flex h-10 px-4 gap-2 bg-amber-600 items-center justify-center text-md text-white hover:bg-blue-900 rounded-full transition-all duration-300"
+                className="hidden md:flex h-10 px-4 gap-2 bg-[#d28204] items-center justify-center text-md text-white hover:bg-blue-900 rounded-full transition-all duration-300"
               >
                 <BiDownArrowCircle className="text-xl" />
                 Download CV
@@ -73,8 +73,7 @@ function Header() {
               </Link>
               <button
                 onClick={() => setShowMobileMenu(true)}
-                className="text-3xl cursor-pointer inline-block lg:hidden"
-                role="menu"
+                className="text-3xl cursor-pointer inline-block lg:hidden"                
                 title="Menubar"
               >
                 <FiMenu />
@@ -96,7 +95,7 @@ function Header() {
                   src={MSCLogo}
                 />
               </Link>
-              <button onClick={() => setShowMobileMenu(false)} className="text-3xl text-black/40 hover:text-black cursor-pointer" title="Close Menu sidebar" role="menu close">                
+              <button onClick={() => setShowMobileMenu(false)} className="text-3xl text-black/40 hover:text-black cursor-pointer" title="Close Menu sidebar">                
                 <LiaTimesSolid />
               </button>
             </div>

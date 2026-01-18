@@ -13,12 +13,12 @@ function HomeHero() {
             <div className="flex flex-col lg:items-start items-center lg:text-start text-center gap-8">
               <h1 className="max-w-xl text-4xl lg:text-6xl font-bold leading-10 lg:leading-20">
                 I'm Sunil<br />
-                <span className="text-amber-500">Web</span> Designer & <span className="text-amber-500">Frontend</span> Developer
+                <span className="text-[#d28204]">Web</span> Designer & <span className="text-[#d28204]">Frontend</span> Developer
               </h1>
               <p className="text-gray-400 max-w-xl">With a strong focus on creating clean, responsive, and user-friendly interfaces. I specialize in translating design concepts into high-performance web experiences using modern frontend technologies.</p>
               <div className="flex item-center gap-5 mt-3">
                 <Link to="/">
-                  <button className="px-6 lg:px-12 py-3 font-medium text-white border rounded-lg border-text-amber-600 bg-amber-700 hover:bg-transparent hover:text-amber-600 hover:cursor-pointer duration-300">
+                  <button className="px-6 lg:px-12 py-3 font-medium text-white border rounded-lg  bg-[#d28204] hover:bg-transparent hover:text-[#d28204] hover:cursor-pointer duration-300">
                     Download CV
                   </button>
                 </Link>

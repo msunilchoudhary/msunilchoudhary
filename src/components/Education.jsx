@@ -9,7 +9,7 @@ function Education() {
           <div className="w-1.5 h-1.5 rounded-full bg-orange-400"></div>
         </div>
         <div className="flex-1 flex flex-col gap-2">
-          <h5 className="text-2xl font-bold">{item.title} | {item.year}</h5>
+          <h3 className="text-2xl font-bold">{item.title} | {item.year}</h3>
           <p className="font-normal">
             {item.text}
           </p>

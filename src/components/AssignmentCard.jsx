@@ -15,9 +15,9 @@ function AssignmentCard({assignment}) {
             src={assignment?.thumb}
           />
         </div>
-        <h4 className="pb-1 pt-5 group-hover:text-primary group-hover:cursor-pointer text-xl font-bold dark:text-white">
+        <h3 className="pb-1 pt-5 group-hover:text-primary group-hover:cursor-pointer text-xl font-bold dark:text-white">
           {assignment?.name}
-        </h4>
+        </h3>
         {assignment?.technologies && <p className="text-secondary font-normal text-lg group-hover:text-primary group-hover:cursor-pointer dark:text-white/50">
           {assignment?.technologies.map((technology) => <span className="inline-flex text-[10px] bg-blue-200 font-medium text-black/75 py-0.5 px-2 rounded-xl mr-1">{technology}</span>)}
         </p>}

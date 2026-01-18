@@ -23,7 +23,7 @@ function Review({review}) {
           </div>
         </div>
         <div>
-          <h6 className="font-bold">{review.name}</h6>
+          <h3 className="font-bold">{review.name}</h3>
           <div>
             <Rating name="half-rating-read" defaultValue={review.rating} precision={0.2} readOnly size="small" />
           </div>
