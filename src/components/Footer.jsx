@@ -21,7 +21,7 @@ function Footer() {
               <h2 className="text-white py-10 sm:pr-2 xl:pr-10 lg:text-2xl text-xl leading-tight font-bold">
                 Ready to turn ideas into fast, reliable user experiences.
               </h2>
-              <Link className="px-9 py-3 text-lg font-bold rounded-lg bg-orange-400 text-white hover:bg-blue-700 hover:shadow-none"
+              <Link className="px-9 py-3 text-lg font-bold rounded-lg bg-orange-600 text-white hover:bg-blue-700 hover:shadow-none"
                 to="/"
               >
                 Hire me
@@ -93,7 +93,7 @@ function Footer() {
                 />
                 <button
                   type="submit"
-                  className="p-2 text-base font-medium bg-orange-400 text-white border-none cursor-pointer rounded-e-lg outline-0 text-center w-36 hover:bg-blue-700 hover:shadow-none"
+                  className="p-2 text-base font-medium bg-orange-600 text-white border-none cursor-pointer rounded-e-lg outline-0 text-center w-36 hover:bg-blue-700 hover:shadow-none"
                 >
                   Subscribe
                 </button>

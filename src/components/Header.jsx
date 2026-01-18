@@ -96,7 +96,7 @@ function Header() {
                   src={MSCLogo}
                 />
               </Link>
-              <button onClick={() => setShowMobileMenu(false)} className="text-3xl text-black/40 hover:text-black cursor-pointer" role="menu close">                
+              <button onClick={() => setShowMobileMenu(false)} className="text-3xl text-black/40 hover:text-black cursor-pointer" title="Close Menu sidebar" role="menu close">                
                 <LiaTimesSolid />
               </button>
             </div>
