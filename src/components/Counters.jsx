@@ -2,11 +2,11 @@ import React from "react";
 
 function Counters() {
   return (
-    <section className="mt-20 bg-white">
+    <section className="mt-10 lg:mt-20 bg-white">
       <div className="container mx-auto max-w-7xl px-4">
-        <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 items-center gap-6">
+        <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-2 gap-2 lg:gap-6">
           <div>
-            <div className="border border-gray-200 rounded-lg flex flex-col gap-4 items-center justify-center px-4 py-8 shadow">
+            <div className="border border-gray-200 rounded-lg flex flex-col gap-4 items-center justify-center px-2 lg:px-4 py-4 lg:py-8 shadow">
               <div className="p-2 bg-blue-700 rounded-full w-fit">
                 <img
                   alt=""
@@ -22,7 +22,7 @@ function Counters() {
             </div>
           </div>
           <div>
-            <div className="border border-gray-200 rounded-lg flex flex-col gap-4 items-center justify-center px-4 py-8 shadow">
+            <div className="border border-gray-200 rounded-lg flex flex-col gap-4 items-center justify-center px-2 lg:px-4 py-4 lg:py-8 shadow">
               <div className="p-2 bg-blue-700 rounded-full w-fit">
                 <img
                   alt="/images/records/user.svg"
@@ -38,7 +38,7 @@ function Counters() {
             </div>
           </div>
           <div>
-            <div className="border border-gray-200 rounded-lg flex flex-col gap-4 items-center justify-center px-4 py-8 shadow">
+            <div className="border border-gray-200 rounded-lg flex flex-col gap-4 items-center justify-center px-2 lg:px-4 py-4 lg:py-8 shadow">
               <div className="p-2 bg-blue-700 rounded-full w-fit">
                 <img
                   alt=""
@@ -54,7 +54,7 @@ function Counters() {
             </div>
           </div>
           <div>
-            <div className="border border-gray-200 rounded-lg flex flex-col gap-4 items-center justify-center px-4 py-8 shadow">
+            <div className="border border-gray-200 rounded-lg flex flex-col gap-4 items-center justify-center px-2 lg:px-4 py-4 lg:py-8 shadow">
               <div className="p-2 bg-blue-700 rounded-full w-fit">
                 <img
                   alt="/images/records/star.svg"
@@ -63,7 +63,7 @@ function Counters() {
                   src="https://themewagon.github.io/Pixelize/images/records/star.svg"
                 />
               </div>
-              <h4 className="text-center text-4xl heading-font font-bold">1200+</h4>
+              <h4 className="text-center text-4xl heading-font font-bold">3000+</h4>
               <p className="text-center text-base font-normal">
                 Delivered websites and projects
               </p>

@@ -29,7 +29,7 @@ function ExperienceCard() {
               </p>}
             </div>
           </div>
-          <div className="pl-8 sm:pl-0">
+          <div className="lg:pl-8 pl-3.5">
             <p className="leading-relaxed text-base">
               {role}
             </p>

@@ -10,10 +10,10 @@ function AboutMe() {
             about me
           </span>
         </div>
-        <h1 className="text-midnight_text font-bold dark:text-white text-4xl md:text-5xl md:leading-[1.15]">
+        <h1 className="font-bold dark:text-white text-4xl md:text-5xl md:leading-[1.15]">
           Who am I?
         </h1>
-        <p className="text-xl font-medium">
+        <p className="text-base lg:text-xl font-medium">
             I am a Web Designer and Frontend Developer with 13+ years of experience creating intuitive, high-performing, and visually compelling digital experiences. I specialize in designing user-centric interfaces and developing scalable frontend architectures that balance aesthetics, usability, and performance.
         </p>
         <p>

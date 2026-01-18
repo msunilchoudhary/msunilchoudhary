@@ -1,31 +1,36 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Home from "./pages/Home"
-import Header from "./components/Header"
-import Footer from "./components/Footer"
-import About from "./pages/About"
-import Experties from "./pages/Experties"
-import Projects from "./pages/Projects"
-import Contact from "./pages/Contact"
-import Assignments from "./pages/Assignments"
+import { lazy, Suspense } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+const Header = lazy(()=> import('./components/Header'))
+const Footer = lazy(()=> import('./components/Footer'))
+const Home = lazy(() => import('./pages/Home'));
+const About = lazy(()=> import('./pages/About'))
+const Projects = lazy(()=> import('./pages/Projects'))
+const Experties = lazy(()=> import('./pages/Experties'))
+const Assignments = lazy(()=> import('./pages/Assignments'))
+const Contact = lazy(()=> import('./pages/Contact'))
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-  function App() {
 
+function App() {
   return (
     <BrowserRouter>
-    <Header />
-    <Routes>
-      <Route path="/" exact={true} element={<Home />} />
-      <Route path="/about" exact={true} element={<About />} />
-      <Route path="/experties" exact={true} element={<Experties />} />
-      <Route path="/projects" exact={true} element={<Projects />} />
-      <Route path="/contact" exact={true} element={<Contact />} />
-      <Route path="/assignments" exact={true} element={<Assignments />} />
-    </Routes>
+    <Suspense fallback={<div>Loading...</div>}>
+      <Header />
+      <Routes>
+        <Route path="/" exact={true} element={<Home />} />
+        <Route path="/about" exact={true} element={<About />} />
+        <Route path="/experties" exact={true} element={<Experties />} />
+        <Route path="/projects" exact={true} element={<Projects />} />
+        <Route path="/contact" exact={true} element={<Contact />} />
+        <Route path="/assignments" exact={true} element={<Assignments />} />
+      </Routes>
       <Footer />
+      </Suspense>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;

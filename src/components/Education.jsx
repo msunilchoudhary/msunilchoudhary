@@ -3,7 +3,7 @@ import { education } from "../data/data";
 
 function Education() {
   return (
-    <div className="w-full lg:max-w-md flex flex-col gap-0 xl:gap-8">
+    <div className="w-full lg:max-w-md flex flex-col gap-4 xl:gap-8">
       {education.map((item) => (<div key={item.year} className="flex items-start gap-6">
         <div className="no-print mt-2.5 w-3.5 h-3.5 rounded-full border bg-white flex items-center justify-center border-orange-400">
           <div className="w-1.5 h-1.5 rounded-full bg-orange-400"></div>
