@@ -54,24 +54,24 @@ function Footer() {
               <div>
                 <ul className="flex items-center gap-3 mt-8">
                   <li className="group">
-                    <Link className="text-3xl text-white/50 hover:text-white" to="/">
+                    <Link title="Facebook" className="text-3xl text-white/50 hover:text-white" to="/">
                       <FaFacebookSquare />
                     </Link>
                   </li>
                   <li className="group">
-                    <Link href="/" className="text-3xl text-white/50 hover:text-white">
+                    <Link title="Linkedin" href="/" className="text-3xl text-white/50 hover:text-white">
                       <FaLinkedin />
                     </Link>
                   </li>
                   <li className="group">
-                    <a className="text-3xl text-white/50 hover:text-white" to="/">
+                    <Link title="Twitter" className="text-3xl text-white/50 hover:text-white" to="/">
                       <FaXTwitter />
-                    </a>
+                    </Link>
                   </li>
                   <li className="group">
-                    <a className="text-3xl text-white/50 hover:text-white" to="/">
+                    <Link title="youtube" className="text-3xl text-white/50 hover:text-white" to="/">
                       <FaYoutube />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

@@ -94,7 +94,7 @@ function Header() {
                   src={MSCLogo}
                 />
               </Link>
-              <button onClick={() => setShowMobileMenu(false)} className="text-3xl text-black/40 hover:text-black cursor-pointer">
+              <button onClick={() => setShowMobileMenu(false)} className="text-3xl text-black/40 hover:text-black cursor-pointer" title="menu" name="menu" role="button">
                 <LiaTimesSolid />
               </button>
             </div>
