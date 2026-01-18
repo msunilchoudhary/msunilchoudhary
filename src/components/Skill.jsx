@@ -1,12 +1,3 @@
-import AI from '../assets/images/icons/ai-icon.png';
-import cssIcon from '../assets/images/icons/css-icon.jpg';
-import JS from '../assets/images/icons/javascript-logo.svg';
-import reactIcon from '../assets/images/icons/react-icon.png';
-import HTMLIcon from '../assets/images/icons/html-icon.png';
-import PS from '../assets/images/icons/photoshop-icon.svg';
-import EJ from '../assets/images/icons/express-icon.png';
-import NJ from '../assets/images/icons/nextjs-icon.webp';
-import MDB from '../assets/images/icons/mongodb-icon.svg';
 import { Rating } from '@mui/material';
 import { skills } from '../data/data';
 
