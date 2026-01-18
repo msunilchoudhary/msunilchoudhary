@@ -74,6 +74,8 @@ function Header() {
               <button
                 onClick={() => setShowMobileMenu(true)}
                 className="text-3xl cursor-pointer inline-block lg:hidden"
+                role="menu"
+                title="Menubar"
               >
                 <FiMenu />
               </button>
@@ -94,7 +96,7 @@ function Header() {
                   src={MSCLogo}
                 />
               </Link>
-              <button onClick={() => setShowMobileMenu(false)} className="text-3xl text-black/40 hover:text-black cursor-pointer" title="menu" name="menu" role="button">
+              <button onClick={() => setShowMobileMenu(false)} className="text-3xl text-black/40 hover:text-black cursor-pointer" role="menu close">                
                 <LiaTimesSolid />
               </button>
             </div>
