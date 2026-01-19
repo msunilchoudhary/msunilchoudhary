@@ -19,6 +19,7 @@ import vedicFashion from '../assets/images/projects/vedicfashion.webp';
 import kalighata from '../assets/images/projects/kalighatastores.webp';
 import cotstyle from '../assets/images/projects/cotstyle.webp';
 import productListImg from '../assets/images/product-list-img.png';
+import passwordG from '../assets/images/password-generator.png';
 
 export default mscLogo;
 
@@ -88,6 +89,13 @@ export const clientReviews = [
 ]
 
 export const assinments = [
+    {
+        id:"ASS008",
+        name:"Random Password Generator",
+        link:"https://random-password-generator-sable-alpha.vercel.app/",
+        thumb:passwordG,
+        technologies:["Reactjs", "JavaScript", "HTML", "TailwindCSS"]
+    },
     {
         id:"ASS001",
         name:"Add To Cart Products",
